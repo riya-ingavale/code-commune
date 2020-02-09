@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+    background-color:rosybrown;
+  }
+  .header-right:hover {
+    background-color:rgb(177, 109, 109);
+  }
+  .header-right a{
+    line-height:65px;
+    padding:0 25px;
+    color:black;
+    display:block;
+    transition:all 0.5s;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .lastline{
+    width: 1170px;
+    padding: 0 15px;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image:url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    color:white;
+    padding-bottom:30px;
+  }
+  
+  .top-wrapper p {
+    font-size:16px;
+    margin-bottom: 3px;
+  
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color:rosybrown;
+    padding-bottom:20px;
+    position:fixed;
+    top:0;
+    z-index:10;
+    
+  }
+  
+  .logo {
+    width: 90px;
+    padding:0 0;
+  }
+
+  .jacode{
+    line-height: 70px;
+    padding: 0 20px;
+    padding-left: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-style: bold;
+    font-style:italic;
+    color:black;
+    display: block;
+  }
+
+  .lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    color:purple;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    font-size:20px;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .contact-form {
+    padding-top: 100px;
+    padding-left:20px;
+  }
+  
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+ 
+  .contact-submit {
+    background-color: #dee7ec;
+    color: color;
+    width:400px;
+    padding: 20px;
+  }
+  
+  .contact-submit:hover{
+    opacity:1px;
+    background-color:grey;
+  }
+  .imp{
+    color:red;
+  }
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  
+  footer h1 {
+ 
+    font-family:"cursive",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-style: bold;
+    font-style:italic;
+    color: purple;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 18px;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
